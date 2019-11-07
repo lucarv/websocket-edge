@@ -1,0 +1,9 @@
+{
+    "name": "wssmodule",
+    "version": "0.0.1",
+    "dependencies": {
+        "azure-iot-device": "^1.12.0",
+        "azure-iot-device-mqtt": "^1.7.0",
+        "ws": "^7.2.0"
+    }
+}
