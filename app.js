@@ -5,7 +5,7 @@
  */
 const WebSocket = require('ws')
 const wss = new WebSocket.Server({
-  port: process.env.PORT
+  port: 8080
 })
 console.log('Alarm Server listening to ws messages on port: ' + wss.options.port)
 var clients = [],
